@@ -1,0 +1,23 @@
+@media screen and (max-width: 576px) {
+	.card{
+	display: grid;
+	grid-template-columns: 300px;
+	grid-template-rows: 190px 190px 80px;
+	grid-template-areas: "image" "text" "stats";
+	font-family: roboto;
+	border-radius: 18px;
+	background: white;
+	box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+	text-align: center;
+	margin-top: -100px;
+
+	transition: 0.8s ease;
+	cursor: pointer;
+}
+
+.card:hover{
+	transform: scale(1.1);
+	box-shadow: 5px 5px 15px rgba(0,0,0,0,6);
+}
+
+}
